@@ -1,0 +1,71 @@
+#container {
+    width: 90%;
+    background-color: #ddd;
+    margin: auto;
+    display flex;
+    flex-flow: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#vider {
+    background-color: black;
+    color: white;
+    text-align: center;  
+    margin-bottom: 2em;
+    display: inline-block;
+    width: 150px;
+    height: 3em;
+}
+
+#contenu {
+    width: 100%;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.columns {
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.columns label {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.columns input[type="text"] {
+    display: inline-block;
+    width: 4em;
+}
+
+.piece {
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+img[src="img/CHF1.jpg"] {
+    width: 80px;
+}
+
+img[src="img/CHF2.jpg"] {
+    width: 100px;
+}
+
+img[src="img/CHF5.jpg"] {
+    width: 120px;
+}
+
+.red {
+    color: red;
+}
