@@ -24,6 +24,7 @@
  * 
  * @author Nicolas Wanner
  * @version 1.0 12.12.2018 Première version finalisée
+ * 
  */
 
 class Coin {

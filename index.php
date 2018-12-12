@@ -3,6 +3,7 @@
  * Gestion de tirelire
  * Nicolas Wanner
  * 5.12.2018
+ * 
  */
 include('tirelire.php');
 $app = Tirelire::Open('myApp',false);
